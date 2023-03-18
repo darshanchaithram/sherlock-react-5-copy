@@ -20,19 +20,55 @@ const Vicious7 = (props) => {
         <div className="vicious7-container1">
           <FeatureCard1
             rootClassName="rootClassName"
-            image_src="https://images.unsplash.com/photo-1678973788045-b7eb6ae7de08?ixid=Mnw5MTMyMXwwfDF8YWxsfDF8fHx8fHwyfHwxNjc5MTI0Njc1&amp;ixlib=rb-4.0.3&amp;h=400"
+            image_src="/playground_assets/C1.jpg"
           ></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName1"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName2"></FeatureCard1>
           <FeatureCard1
-            rootClassName="rootClassName3"
-            image_src="https://images.unsplash.com/photo-1679057783906-90bd5024133e?ixid=Mnw5MTMyMXwwfDF8YWxsfDE1fHx8fHx8Mnx8MTY3OTEyNDY3NQ&amp;ixlib=rb-4.0.3&amp;h=400"
+            rootClassName="rootClassName"
+            image_src="/playground_assets/c2.jpg"
           ></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName7"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName6"></FeatureCard1>
-          <FeatureCard1 rootClassName="rootClassName5"></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C3.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C4.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C5.jpg"
+          ></FeatureCard1>
+          <FeatureCard1
+            rootClassName="rootClassName"
+            image_src="/playground_assets/C6.jpg"
+          ></FeatureCard1>
+          <div class="card">
+            <div class="content">
+              <div class="back">
+                <div class="back-content">
+                  <strong>"Unveil the hidden!" </strong>
+                </div>
+              </div>
+              <div class="front">
+                
+                <div class="img">
+                  <div class="circle">
+                  </div>
+                  <div class="circle" id="right">
+                  </div>
+                  <div class="circle" id="bottom">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
+      
+      
+
+
     </div>
   )
 }
